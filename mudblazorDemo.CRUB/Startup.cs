@@ -7,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MudBlazor.Services;
-using mudblazorDemo.CRUB.Data;
 using mudblazorDemo.CRUB.DbContexts;
 using mudblazorDemo.CRUB.Services;
 using System;
