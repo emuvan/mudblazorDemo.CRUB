@@ -32,7 +32,6 @@ namespace mudblazorDemo.CRUB
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddMudServices();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("mudblazorDemo")));
             services.AddControllersWithViews();
